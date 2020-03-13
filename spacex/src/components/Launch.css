@@ -1,0 +1,52 @@
+
+.launch {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    /* background-color: green; */
+    padding: 50px;
+}
+
+.launch-data {
+    color: white;
+}
+
+.links-controls {
+    /* background-color: chocolate; */
+    margin: 20px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.links-controls button {
+    margin: 10px 15px;
+    padding: 5px 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(218, 218, 218, 0.376);
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.article {
+    background-image: url('./assets/chart.png');
+}
+
+.wiki {
+    background-image: url('./assets/wikipedia.png');
+}
+
+.links-controls button:hover {
+    transform: translateY(-3px);
+    background-color: white;
+}
+
+.links-controls a {
+    text-decoration: none;
+}
+

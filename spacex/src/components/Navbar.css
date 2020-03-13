@@ -1,0 +1,42 @@
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    position: sticky;
+    z-index: 1000;
+}
+
+.navbar-components {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.navbar-btns {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-btns a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-btns li {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navbar-btns li:hover {
+    border-bottom: 2px solid white;
+    transform: translateY(3px);
+}
